@@ -30,7 +30,7 @@ import Foundation
 
 //what are the funcitonal requirements
 
-//HOW THE FUCK DO I USE GITHUB ON XCODE... HAVING SOME ISSUES
+//HOW THE heck... DO I USE GITHUB ON XCODE... HAVING SOME ISSUES
 
 
 
