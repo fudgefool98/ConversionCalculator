@@ -8,7 +8,36 @@
 
 import Foundation
 
-//
+
+//we need an input and output
+//input will have characters appended to a sting.
+//output comes from model functions
+
+//we need to have proper decimal functionality so that it isn't 10.0.1 or 900.. etc and all decimal's without leading ints will be displayed with a 0.123 (leading zero)
+
+
+// we need a function for each conversion. the controler will manage under which circumstances each function is called.
+
+//start questions
+// when should we use optionals?
+// do we need to use optionals?
+
+//when should we use computed properties?
+
+// will we be sending a string into a to int function?? what is that called
+
+// what are some questions you expect i need to ask?
+
+//what are the funcitonal requirements
+
+//HOW THE FUCK DO I USE GITHUB ON XCODE... HAVING SOME ISSUES
+
+
+
+
+
+
+// calculations start
 //
 //-length
 //
