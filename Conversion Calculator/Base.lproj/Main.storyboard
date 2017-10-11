@@ -36,6 +36,9 @@
                                                             <segment title="Temp"/>
                                                             <segment title="Weight"/>
                                                         </segments>
+                                                        <connections>
+                                                            <action selector="segControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="aNE-SV-oRT"/>
+                                                        </connections>
                                                     </segmentedControl>
                                                 </subviews>
                                             </stackView>
@@ -311,7 +314,11 @@
                         <viewLayoutGuide key="safeArea" id="f0T-8l-nAk"/>
                     </view>
                     <connections>
+                        <outlet property="categorySeg" destination="knh-P3-QXl" id="j7S-nm-yRa"/>
                         <outlet property="inputField" destination="dLG-ZI-UHc" id="BX2-7O-sIg"/>
+                        <outlet property="leftPicker" destination="HNO-I4-9I9" id="TCQ-oK-rku"/>
+                        <outlet property="outputField" destination="qQN-wQ-bEe" id="Itl-eH-DlT"/>
+                        <outlet property="rightPicker" destination="ONQ-C1-ygQ" id="QMM-XW-Jrr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
