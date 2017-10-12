@@ -185,9 +185,17 @@ func getm3Toin3(input: String)->String{
 //-temp
 //
 //Celsius © to Fahrenheit (F)
+func getCToF(input: String)->String{
+    let output = Double(input) ?? 0.0 * (9/5) + 32
+    return String(describing: output)
+}
 // input*(9/5) + 32
 
 //Celsius © to Kelvin (K)
+func getCToK(input: String)->String{
+    let output = Double(input) ?? 0.0 + 273.16
+    return String(describing: output)
+}
 // input + 273.15
 
 
@@ -208,10 +216,18 @@ func getkgToinmg(input: String)->String{
 //// output = input * 1000000
 
 //Kilogram (kg) to Pound (lb)
-//// output = input * 2.20462
+func getKgToLb(input: String)->String{
+    let output = Double(input) ?? 0.0 * 2.20462
+    return String(describing: output)
+}
+// output = input * 2.20462
 
 //Kilogram (kg) to Ounce (oz)
-//// output = input * 35.2739199982575
+func getKgToOz(input: String)->String{
+    let output = Double(input) ?? 0.0 * 35.2739199982575
+    return String(describing: output)
+}
+// output = input * 35.2739199982575
 //
 //
 
