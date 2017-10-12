@@ -194,9 +194,17 @@ func getm3Toin3(input: String)->String{
 //-weight
 //
 //Kilogram (kg) to Gram (gr)
+func getkgToingr(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000
+    return String(describing: output)
+}
 // output = input * 1000
 
 //Kilogram (kg) to Milligram (mg)
+func getkgToinmg(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000000
+    return String(describing: output)
+}
 //// output = input * 1000000
 
 //Kilogram (kg) to Pound (lb)
