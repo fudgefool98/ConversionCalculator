@@ -38,33 +38,66 @@ import Foundation
 
 
 
-
 // calculations start
 //
 //-length
 //
+
+
 //Kilometer (km) to meter (m)
+func getKmToM(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000
+    return String(describing: output)
+}
 //  output = input*1000
 
 //Kilometer(km) to decimeter (dm)
+func getKmToDm(input: String)->String{
+    let output = Double(input) ?? 0.0 * 100
+    return String(describing: output)
+}
 // output = input*100
 
 //Kilometer (km) to centimeter (cm)
-// ouput = input*100000
+func getKmToCm(input: String)->String{
+    let output = Double(input) ?? 0.0 * 100000
+    return String(describing: output)
+}
+// output = input*100000
 
 //Kilometer (km) to millimeter (mm)
+func getKmToMm(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000000
+    return String(describing: output)
+}
 // output = input * 1000000
 
 //Kilometer (km) to mile (mile)
+func getKmToMile(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.621371
+    return String(describing: output)
+}
 // output = input * 0.621371
 
 //Kilometer (km) to yard (yard)
+func getKmToYard(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1093.61
+    return String(describing: output)
+}
 // output = input * 1093.61
 
 //Kilometer (km) to feet (ft)
+func getKmToFt(input: String)->String{
+    let output = Double(input) ?? 0.0 * 3280.84
+    return String(describing: output)
+}
 // output = input * 3280.84
 
 //Kilometer (km) to inch (in)
+func getKmToIn(input: String)->String{
+    let output = Double(input) ?? 0.0 * 39370.1
+    return String(describing: output)
+}
 // output = input * 39370.1
 
 
@@ -108,10 +141,10 @@ import Foundation
 //-temp
 //
 //Celsius © to Fahrenheit (F)
-//
+// input*(9/5) + 32
 
 //Celsius © to Kelvin (K)
-//
+// input + 273.15
 
 
 //-weight
