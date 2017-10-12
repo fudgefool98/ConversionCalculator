@@ -130,24 +130,25 @@ func getKmphToFps(input: String)->String{
 //
 //Cubic Meter(m3) to Deciliter (dl)
 //
-
+//output = input * 10000
 //Cubic Meter (m3) to Centiliter (cl)
 //
-
-//Cubic Meter (m3) to Mililiter (cc)
+//output = input * 100000
 //
-
+//Cubic Meter (m3) to Milliliter (cc)
+//output = input * 1000000
+//
 //Cubic Meter (m3) to Cubic Millimeter (mm3)
-//
+//output = input * 1000000000
 
 //Cubic Meter (m3) to Cubic Yard (yd3)
-//
+//output = input * 1.30795
 
 //Cubic Meter (m3) to Cubic Foot (ft3)
-//
+//output input * 35.3147
 
 //Cubic Meter (m3) to Cubic Inch (in3)
-//
+//ouput = input * 61023.7
 
 //-temp
 //
