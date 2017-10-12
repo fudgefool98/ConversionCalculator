@@ -105,12 +105,24 @@ func getKmToIn(input: String)->String{
 //-speed
 //
 //Kilometer per Hour (km/h) to Meter per second (m/s)
+func getKmphToMps(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.277778
+    return String(describing: output)
+}
 // output = input *0.277778
 
 //Kilometer per Hour (km/h) to Mile per Hour (mph)
+func getKmphToMph(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.621371
+    return String(describing: output)
+}
 // output = input *0.621371
 
 //Kilometer per Hour (km/h) to Feet per Second (ft/s)
+func getKmphToFps(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.911344
+    return String(describing: output)
+}
 // output = input *0.911344
 
 
