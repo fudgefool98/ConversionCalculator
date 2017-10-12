@@ -36,10 +36,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         let title: String = categorySeg.titleForSegment(at: categorySeg.selectedSegmentIndex)!
         switch (title) {
-        case "Speed":
+        case "Volume":
+            //Deciliter to Milliliter 
+            
             break
         case "Length":
             break
+        case "Speed":
+         break
+        case "Temp":
+            break
+        case "Weight":
+            break
+       
         default:
             break
         }

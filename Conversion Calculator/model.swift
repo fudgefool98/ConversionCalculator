@@ -83,18 +83,19 @@ import Foundation
 //
 //Cubic Meter(m3) to Deciliter (dl)
 //
-
+//output = input * 10000
 //Cubic Meter (m3) to Centiliter (cl)
 //
-
+//output = input * 1000000000
+//
 //Cubic Meter (m3) to Mililiter (cc)
+//output = input * 
 //
-
 //Cubic Meter (m3) to Cubic Millimeter (mm3)
-//
+//output = input * 1000000000
 
 //Cubic Meter (m3) to Cubic Yard (yd3)
-//
+//output = input *
 
 //Cubic Meter (m3) to Cubic Foot (ft3)
 //
