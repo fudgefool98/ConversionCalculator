@@ -115,10 +115,10 @@ func getKmToM(_input: String)->String{
 //-temp
 //
 //Celsius © to Fahrenheit (F)
-//
+// input*(9/5) + 32
 
 //Celsius © to Kelvin (K)
-//
+// input + 273.15
 
 
 //-weight
