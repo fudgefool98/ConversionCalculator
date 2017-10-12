@@ -53,7 +53,7 @@ func getKmToM(input: String)->String{
 
 //Kilometer(km) to decimeter (dm)
 func getKmToDm(input: String)->String{
-    let output = Double(input) ?? 0.0 * 100
+    let output = Double(input) ?? 0.0 * 10000
     return String(describing: output)
 }
 // output = input*100
@@ -105,12 +105,24 @@ func getKmToIn(input: String)->String{
 //-speed
 //
 //Kilometer per Hour (km/h) to Meter per second (m/s)
+func getKmphToMps(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.277778
+    return String(describing: output)
+}
 // output = input *0.277778
 
 //Kilometer per Hour (km/h) to Mile per Hour (mph)
+func getKmphToMph(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.621371
+    return String(describing: output)
+}
 // output = input *0.621371
 
 //Kilometer per Hour (km/h) to Feet per Second (ft/s)
+func getKmphToFps(input: String)->String{
+    let output = Double(input) ?? 0.0 * 0.911344
+    return String(describing: output)
+}
 // output = input *0.911344
 
 
@@ -182,16 +194,16 @@ func getm3Toin3(input: String)->String{
 //-weight
 //
 //Kilogram (kg) to Gram (gr)
-//
+// output = input * 1000
 
 //Kilogram (kg) to Milligram (mg)
-//
+//// output = input * 1000000
 
 //Kilogram (kg) to Pound (lb)
-//
+//// output = input * 2.20462
 
 //Kilogram (kg) to Ounce (oz)
-//
+//// output = input * 35.2739199982575
 //
 //
 
