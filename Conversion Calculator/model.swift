@@ -130,24 +130,56 @@ func getKmphToFps(input: String)->String{
 //
 //Cubic Meter(m3) to Deciliter (dl)
 //
+func getm3Todl(input: String)->String{
+    let output = Double(input) ?? 0.0 * 10000
+    return String(describing: output)
+}
+
 //output = input * 10000
 //Cubic Meter (m3) to Centiliter (cl)
-//
+func getm3Tocl(input: String)->String{
+    let output = Double(input) ?? 0.0 * 100000
+    return String(describing: output)
+}
 //output = input * 100000
 //
 //Cubic Meter (m3) to Milliliter (cc)
+func getm3Tocc(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000000
+    return String(describing: output)
+}
 //output = input * 1000000
 //
 //Cubic Meter (m3) to Cubic Millimeter (mm3)
+func getm3Tomm3(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1000000000
+    return String(describing: output)
+}
+
 //output = input * 1000000000
 
 //Cubic Meter (m3) to Cubic Yard (yd3)
+func getm3Toyd3(input: String)->String{
+    let output = Double(input) ?? 0.0 * 1.30795
+    return String(describing: output)
+}
+
 //output = input * 1.30795
 
 //Cubic Meter (m3) to Cubic Foot (ft3)
+func getm3Toft3(input: String)->String{
+    let output = Double(input) ?? 0.0 * 35.3147
+    return String(describing: output)
+}
+
 //output input * 35.3147
 
 //Cubic Meter (m3) to Cubic Inch (in3)
+func getm3Toin3(input: String)->String{
+    let output = Double(input) ?? 0.0 * 61023.7
+    return String(describing: output)
+}
+
 //ouput = input * 61023.7
 
 //-temp
