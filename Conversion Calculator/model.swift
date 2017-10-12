@@ -38,13 +38,21 @@ import Foundation
 
 
 
-
 // calculations start
 //
 //-length
 //
+
+
 //Kilometer (km) to meter (m)
 //  output = input*1000
+
+func getKmToM(_input: String)->String{
+    let output = Double?(_input)*1000
+    String(describing: output)
+    return output
+}
+
 
 //Kilometer(km) to decimeter (dm)
 // output = input*100
